@@ -47,7 +47,7 @@ def get_db():
 
 async def generate_relevant_queries(query: str):
     """Generates alternate queries using Ollama AI."""
-    prompt = f"Generate 5 alternate feasible relevant queries similar to: '{query}' which are helpful to search in Google and YouTube."
+    prompt = f"Generate exactly 5 alternate feasible relevant queries similar to: '{query}' which are helpful to search in Google and YouTube."
     async with aiohttp.ClientSession() as session:
         try:
             async with session.post(OLLAMA_SERVER_URL, json={
