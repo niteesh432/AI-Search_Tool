@@ -1,0 +1,118 @@
+/* Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url('../public/bg_1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  color: white;
+  padding: 0;
+  margin: 0; 
+}
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(10px);
+}
+
+/* Input Container */
+.input-container {
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+  width: 90%;
+  max-width: 500px; /* Adjusted for better visibility */
+  padding: 30px;
+  background-color: whitesmoke;
+  backdrop-filter: blur(10px); /* Ensures blur applies */
+  border-radius: 15px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+/* Heading */
+.heading {
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Search Box */
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+/* Input Field */
+input {
+  width: 70%; /* Reduced width */
+  padding: 12px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  outline: none;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+  background: white;
+  color: black;
+}
+
+input:focus {
+  border-color: #007bff;
+  box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.6);
+}
+
+/* Search Button */
+button {
+  background: #ff8800;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #ff6600;
+}
+
+/* Results Container */
+.results-container {
+  width: 90%;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  color: black;
+  text-align: left;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .input-container, .results-container {
+    width: 95%;
+  }
+  
+  input {
+    width: 60%; /* Adjust width for mobile */
+  }
+}
