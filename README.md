@@ -89,3 +89,13 @@ cd ai-search-tool
 1️. **Enter a search query** in the input box.  
 2️. **AI expands your query** using the Ollama server.  
 3. **View ranked search results** from Google & YouTube.  
+
+##  Sample Outputs
+1. ![Screenshot (2082)](https://github.com/user-attachments/assets/2df27091-9ee9-4622-95ff-88bb307d0875)
+2. ![Screenshot (2083)](https://github.com/user-attachments/assets/f6360893-6861-4181-bff4-31fb02969ebe)
+3. ![Screenshot (2084)](https://github.com/user-attachments/assets/a74a5a27-11b6-4206-af69-d976c403aa8f)
+4. ![Screenshot (2085)](https://github.com/user-attachments/assets/ea24d3d7-9356-4221-9b67-651445e170a4)
+
+
+
+
