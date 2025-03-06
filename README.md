@@ -20,42 +20,12 @@ This AI-powered search tool enhances traditional search by integrating **AI-driv
 
 ## 🔧 Installation & Setup
 
-### 1️⃣ Clone the Repository
+### 1️ Clone the Repository
 ```bash
 git clone https://github.com/your-repo/ai-search-tool.git
 cd ai-search-tool
 ```
-
-### 2️⃣ Backend Setup (FastAPI)
-- Install dependencies:
-  ```bash
-  pip install fastapi uvicorn requests
-  ```
-- Run the FastAPI backend locally:
-  ```bash
-  uvicorn main:app --reload
-  ```
-
-#### Deploying Backend to Server with PM2
-- Install PM2:
-  ```bash
-  npm install -g pm2
-  ```
-- Start the backend server using PM2:
-  ```bash
-  pm2 start "uvicorn main:app --host 0.0.0.0 --port 8000" --name fastapi-app
-  ```
-- Keep it running persistently:
-  ```bash
-  pm2 save
-  pm2 startup
-  ```
-- Check running services:
-  ```bash
-  pm2 list
-  ```
-
-### 3️⃣ Frontend Setup (React.js)
+### 2 Frontend Setup (React.js)
 - Navigate to the frontend folder:
   ```bash
   cd frontend
