@@ -91,10 +91,14 @@ cd ai-search-tool
 3. **View ranked search results** from Google & YouTube.  
 
 ##  Sample Outputs
-1. ![Screenshot (2082)](https://github.com/user-attachments/assets/2df27091-9ee9-4622-95ff-88bb307d0875)
-2. ![Screenshot (2083)](https://github.com/user-attachments/assets/f6360893-6861-4181-bff4-31fb02969ebe)
-3. ![Screenshot (2084)](https://github.com/user-attachments/assets/a74a5a27-11b6-4206-af69-d976c403aa8f)
-4. ![Screenshot (2085)](https://github.com/user-attachments/assets/ea24d3d7-9356-4221-9b67-651445e170a4)
+1. ![1](https://github.com/user-attachments/assets/40f7574e-639f-471e-8c1b-1df9fcb7fa7f)
+2. ![2](https://github.com/user-attachments/assets/e4d2ce01-91c0-4faa-a141-1deaa9fea050)
+3. ![3](https://github.com/user-attachments/assets/5f4fd6bf-9c5d-4c77-8d86-1fea5605b877)
+4. ![4](https://github.com/user-attachments/assets/7c8932dd-9825-47e9-8c24-5c75fa21d6c8)
+
+
+
+
 
 
 
