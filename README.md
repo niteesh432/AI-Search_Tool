@@ -1,9 +1,9 @@
 # AI-Powered Search Tool
 
-## 📌 Project Overview
+##  Project Overview
 This AI-powered search tool enhances traditional search by integrating **AI-driven query expansion** using an **Ollama server** and fetching results from **Google and YouTube** using external APIs. The system ranks results based on **relevance and popularity**, ensuring high-quality search outcomes.
 
-## 🚀 Tech Stack
+## Tech Stack
 - **Frontend:** React.js, Bootstrap
 - **Backend:** FastAPI (Python)
 - **Database:** PostgreSQL/MySQL
@@ -13,18 +13,19 @@ This AI-powered search tool enhances traditional search by integrating **AI-driv
   - **YouTube API** – Retrieves video results from YouTube.
   - **Ollama Server (Cloud Deployed)** – Expands user queries using AI-powered alternatives.
 
-## ✨ Features
-✅ **AI-powered query expansion** – Enhances user queries for better search results using a cloud-hosted Ollama server.  
-✅ **Google & YouTube search integration** – Fetches results from trusted sources.  
-✅ **Ranking mechanism** – Sorts results based on relevance and popularity.  
+##  Features
+1.**AI-powered query expansion** – Enhances user queries for better search results using a cloud-hosted Ollama server.  
+2. **Google & YouTube search integration** – Fetches results from trusted sources.  
+3. **Ranking mechanism** – Sorts results based on relevance and popularity.  
 
-## 🔧 Installation & Setup
+##  Installation & Setup
 
 ### 1️ Clone the Repository
 ```bash
 git clone https://github.com/your-repo/ai-search-tool.git
 cd ai-search-tool
 ```
+
 ### 2 Frontend Setup (React.js)
 - Navigate to the frontend folder:
   ```bash
@@ -37,39 +38,39 @@ cd ai-search-tool
   ```
 > **Note:** The frontend is not deployed because Vercel/Netlify enforce HTTPS requests, while the backend requires HTTP. To run the project, start the frontend locally.
 
-## 📜 APIs Used
+##  APIs Used
 - **Google Custom Search API** – Fetches search results from Google.
 - **YouTube API** – Retrieves video search results.
 - **Ollama Server (Cloud Deployed)** – Expands user queries using AI-powered alternatives.
 
-## 🛠 Steps Implemented
+##  Steps Implemented
 
-### ✅ Step 1: Setup Project Structure
+###  Step 1: Setup Project Structure
 - Created GitHub repository.
 - Initialized **React.js** frontend & **FastAPI backend**.
 
-### ✅ Step 2: Build User Input UI
+###  Step 2: Build User Input UI
 - Designed a **search box** in React.js.
 - Connected frontend to backend via API.
 
-### ✅ Step 3: AI-Powered Query Expansion
+###  Step 3: AI-Powered Query Expansion
 - Integrated **Ollama server (cloud-hosted)** to generate alternative queries.
 - Tested API calls using Postman & console logs.
 
-### ✅ Step 4: Fetch Data from Google & YouTube
+###  Step 4: Fetch Data from Google & YouTube
 - Used **Google Custom Search API** to fetch search results.
 - Integrated **YouTube API** to retrieve video-based search results.
 - Processed and structured API responses before sending them to frontend.
 
-### ✅ Step 5: Process & Rank Results
+###  Step 5: Process & Rank Results
 - Stored search results in **PostgreSQL/MySQL database**.
 - Implemented **basic ranking logic** (relevance & popularity).
 
-### ✅ Step 6: Display Search Results in UI
+###  Step 6: Display Search Results in UI
 - Designed UI to **show search results** as cards/lists.
 - Added **sorting & filtering options** (optional).
 
-## 💡 Challenges & Solutions
+##  Challenges & Solutions
 | Challenge | Solution |
 |-----------|---------|
 | **HTTPS frontend (Vercel/Netlify) vs HTTP backend** | Ran frontend locally (`npm start`) instead of deploying |
@@ -78,13 +79,13 @@ cd ai-search-tool
 | **Query expansion errors** | Adjusted prompt engineering for Ollama queries |
 | **UI responsiveness** | Used Bootstrap & optimized CSS |
 
-## 🚀 Future Improvements
+##  Future Improvements
 - **Enable HTTPS for backend** to deploy the frontend properly.
 - **Personalized ranking** based on user preferences.
 - **Enhanced UI/UX** with better search filtering.
 - **Support for more data sources** (news, blogs, etc.).
 
-## 📝 How to Use
-1️⃣ **Enter a search query** in the input box.  
-2️⃣ **AI expands your query** using the Ollama server.  
-3️⃣ **View ranked search results** from Google & YouTube.  
+##  How to Use
+1️. **Enter a search query** in the input box.  
+2️. **AI expands your query** using the Ollama server.  
+3. **View ranked search results** from Google & YouTube.  
